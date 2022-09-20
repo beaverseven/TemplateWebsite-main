@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "sal.css">
+        <link rel = "stylesheet" type = "text/css" href = "index.css">
+        <title> Kamil Piziak Portfolio </title>
+    </head>
+    <body>
+        <div class = "wrapper">
+
+
+            <!--header-->
+            <header>
+                <a href = '#' class = "logo"> Kamil Piziak</a>
+                <div class = "toggle" onclick="toggleClassName();"></div>
+            </header>
+
+            <!--Sidebar-->
+
+            <div class = "sidebar">
+                <ul>
+                    <li> <a href= '#home' onclick="toggleClassName();"> Home</a></li>
+                    <li> <a href= '#about' onclick="toggleClassName();"> About</a></li>
+                    <li> <a href= '#services' onclick="toggleClassName();"> Skills</a></li>
+                    <li> <a href= '#client' onclick="toggleClassName();"> Project </a></li>
+                    <li> <a href= '#testimonial' onclick="toggleClassName();"> Testimonial </a></li>
+                    <li> <a href= '#team' onclick="toggleClassName();"> What's Next?</a></li>
+                    <li> <a href= '#contact' onclick="toggleClassName();"> Contact</a></li>
+
+                </ul>
+            </div>
+
+            <!--Banner-->
+
+            <div class = "banner" id = "home">
+                <img src = "images/bg.jpg"> 
+                <div class = "content" data-sal="slide-left" data-sal-duration="500">
+                    <h2> Kamil Piziak's Portfolio</h2>
+                    <p> Welcome to my portfolio! Here you will find all the projects that I have created. I hope you will enjoy what you see!</p>
+                </div>
+            </div>
+
+            <!-- About-->
+
+            <section class = "about" id = "about">
+                <div class = "contentBox" data-sal="slide-right" data-sal-duration="500">
+                    <h2 class = "heading"> About Me</h2>
+                    <p class = "text"> Hello! My name is Kamil Piziak. I am currently a Senior at Hunter College, pursuing a Bachelors in Computer Science, with a minor in Mathematics. Born in Brooklyn, NY, I have always been a passionate learner about everything! However, one thing I have always been passionate about is computers. Growing up, I have always loved video games, and the process of making them. I started to learn more about making video games, and I was introduced to the field of Computer Science! I became an avid lover of coding, and since then I have strived to learn more about Computer Science!</p>
+                </div>
+
+                <div class = "imgBox" data-sal="slide-left" data-sal-duration="500">
+
+                </div>
+            </section>
+
+            <!--services-->
+
+            <section class = "services" id = "services">
+                <h2 class = "heading" data-sal="slide-right" data-sal-duration="500"> Projects </h2>
+                <p class = "text" data-sal="slide-left" data-sal-duration="500">  Here is a showcase of some of the projets I have done!</p>
+                <div class = "container"> 
+
+                    <div class = "serviceBox" data-sal="slide-right" data-sal-duration="500">
+                        <div> 
+                            <img src = "images/icon1.png">
+                            <h2> NoteFinderFree</h2>
+                        </div>
+                    </div>
+                    <div class = "serviceBox" data-sal="slide-up" data-sal-duration="500">
+                        <div> 
+                            <img src = "images/icon2.png">
+                            <h2> Space Blaster</h2>
+                        </div>
+                    </div>
+                    <div class = "serviceBox" data-sal="slide-left" data-sal-duration="500">
+                        <div> 
+                            <img src = "images/icon3.png">
+                            <h2> Cave Boy</h2>
+                        </div>
+                    </div>
+
+                    <div class = "serviceBox" data-sal="slide-left" data-sal-duration="500">
+                        <div> 
+                            <img src = "images/icon3.png">
+                            <h2> COVID-19 And Homeless People</h2>
+                        </div>
+                    </div>
+
+                    <div class = "serviceBox" data-sal="slide-left" data-sal-duration="500">
+                        <div> 
+                            <img src = "images/icon3.png">
+                            <h2> Cave Boy</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+    
+            <!-- Technologies-->
+            <section class = "technology">
+                <div class = "contentBox" data-sal="slide-right" data-sal-duration="500"> <!-- Divs are just used for organizing. Think of them as a box where you can put stuff in.-->
+                    <h2 class = "heading"> We use cutting edge techonologies </h2>
+                    <p class = "text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab saepe facere a adipisci laboriosam enim atque nam eum. Magni facere voluptates sapiente perspiciatis! Fuga, eius adipisci? Tempore saepe repellendus illo.</p>
+                </div>
+                <div class = "imgBox" data-sal="slide-left" data-sal-duration="500">
+                    <img src = "images/tech.png">
+                </div>
+    
+    
+            </section>
+
+            <!-- Clients Section-->
+            <section class = "client" id = "client">
+                <h2 class = "heading" data-sal="slide-right" data-sal-duration="500"> Our Clients </h2>
+                <p class = "text" data-sal="slide-left" data-sal-duration="500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere temporibus nemo adipisci debitis veniam aut alias modi ad libero! Pariatur dignissimos explicabo accusantium sint blanditiis eum neque minima dicta dolore.</p>
+                <div class = "imgBox">
+                    <img src = "images/brand1.png">
+                    <img src = "images/brand2.png">
+                    <img src = "images/brand3.png">
+                    <img src = "images/brand4.png">
+                </div>
+            </section>
+
+            <!-- Testimonial -->
+            <section class = "testimonial" id = "testimonial">
+                <h2 class = "heading"> What our Clients Say</h2>
+                <div class = "container"> 
+                    <div class = "contentBox" data-sal="slide-right" data-sal-duration="500">
+                        <div>
+                            <p class> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure esse tempore eos consequatur sapiente rerum mollitia quisquam dignissimos vel alias temporibus, nesciunt debitis. Fugit, modi fugiat. Labore consectetur maiores eos!
+
+                            </p> <br>
+                            <h3> Someone Famous</h3>
+                        </div>
+                    </div>
+                    <div class = "contentBox" data-sal="slide-left" data-sal-duration="500">
+                        <div>
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure esse tempore eos consequatur sapiente rerum mollitia quisquam dignissimos vel alias temporibus, nesciunt debitis. Fugit, modi fugiat. Labore consectetur maiores eos!
+
+                            </p> <br>
+                            <h3> Someone Famous</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Teams-->
+            <section class = "team" id = "team">
+                <h2 class ="heading" data-sal="slide-left" data-sal-duration="500"> Our Team</h2>
+                <p class = "text" data-sal="slide-right" data-sal-duration="500"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa iure eos laborum maxime unde fugit et dicta totam! Dicta vitae recusandae hic nemo ipsa repudiandae culpa enim nam! Amet, odio!</p> 
+                <div class = "container">
+                    <div class = "teamBox">
+                        <div class = "box">
+                            <div class = "imgBox">
+                                <img src = "images/1.jpg">
+                            </div>
+                            <div class = "content">
+                                <h2> Someone Famous <br> <span> CEO & Founder</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "teamBox">
+                        <div class = "box">
+                            <div class = "imgBox">
+                                <img src = "images/2.jpg">
+                            </div>
+                            <div class = "content">
+                                <h2> Someone Famous <br> <span> CEO & Founder</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "teamBox">
+                        <div class = "box">
+                            <div class = "imgBox">
+                                <img src = "images/3.jpg">
+                            </div>
+                            <div class = "content">
+                                <h2> Someone Famous <br> <span> CEO & Founder</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "teamBox">
+                        <div class = "box">
+                            <div class = "imgBox">
+                                <img src = "images/4.jpg">
+                            </div>
+                            <div class = "content">
+                                <h2> Someone Famous <br> <span> CEO & Founder</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact-->
+
+            <section class = "contact" id = "contact">
+                <div>
+                    <h2 class = "heading" data-sal="slide-left" data-sal-duration="500"> Contact Us</h2>
+                    <p class = "text" data-sal="slide-right" data-sal-duration="500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis repudiandae velit consectetur, obcaecati recusandae eius expedita blanditiis eveniet exercitationem perspiciatis dolorum libero corporis, dolorem adipisci, nihil quia alias nulla.</p>
+                
+                </div>
+            </section>
+
+            <section class = "about">
+                <div class = "contentBox redBg">
+                    <div class = "form" data-sal="slide-right" data-sal-duration="500">
+                        <div class = "inputBox">
+                            <input type ="text" name = "" placeholder="Full Name">
+                        </div>
+                        <div class = "inputBox">
+                            <input type ="text" name = "" placeholder="Email Address">
+                        </div>
+                        <div class = "inputBox">
+                            <input type ="text" name = "" placeholder="Mobile No.">
+                        </div>
+                        <div class = "inputBox">
+                            <textarea placeholder="Write your message here..."></textarea>
+                        </div>
+                        <div class = "inputBox">
+                            <input type = "submit" value = "Send" name = "">
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class = "imgBox2">
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section class = "footer"> 
+                <p class = "text"> Design & Developed By Kamil Piziak </p>
+                <ul>
+                    <p class = "text"> Follow us on : </p>
+                    <li> <a href = "#"><img src = "images/facebook.png"></a></li>
+                    <li> <a href = "#"><img src = "images/twitter.png"></a></li>
+                    <li> <a href = "#"><img src = "images/linkedin.png"></a></li>
+                </ul>
+            </section>
+
+
+
+        </div>
+
+        <script type = "text/javascript" src = "sal.js"></script>
+
+        
+
+        <script type = "text/javascript">
+
+            sal({
+                once: false,
+              });
+
+            function toggleClassName(){
+                var wrapper = document.querySelector('.wrapper');
+                var sidebar = document.querySelector('.sidebar');
+                var toggle = document.querySelector('.toggle');
+                sidebar.classList.toggle('active');
+                wrapper.classList.toggle('active');
+                toggle.classList.toggle('active');
+            }
+
+            window.addEventListener('scroll', function(){
+                var header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+
+            })
+        </script>
+
+    </body>
+</html>
